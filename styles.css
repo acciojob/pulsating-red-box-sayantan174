@@ -1,1 +1,19 @@
 /*  your css code here. If applicable */
+.box{
+	width:100px;
+	height:100px;
+	background-color:red;
+	animation:pulse_animation 1s ease-in-out infinite;
+}
+@keyframes pulse_animation{
+	from{
+		.box{
+			translate:scale(1.2);
+		}
+	}
+	to{
+		.box{
+			translate:scale(1.5);
+		}
+	}
+}
